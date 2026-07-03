@@ -1,0 +1,74 @@
+/* Centers the form on the page with padding */
+.provider-form-wrapper {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Main card styling with dark theme background */
+.form-container {
+  background-color: #1e293b;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Form header typography */
+.form-container h2 {
+  text-align: center;
+  color: #3b82f6;
+  margin-bottom: 20px;
+}
+
+/* Stacks form elements vertically with consistent spacing */
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Normalizes inputs, selects, and textareas */
+.form-container input,
+.form-container select,
+.form-container textarea {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #334155;
+  color: white;
+  border: 1px solid #475569;
+}
+
+/* Primary submit button styling */
+.form-container button {
+  padding: 12px;
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Hover state for the submit button */
+.form-container button:hover {
+  background-color: #4f46e5;
+}
+
+/* Arranges the amenities checkboxes into a 2-column grid */
+.facilities-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+/* Aligns the checkbox input with its text label */
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #cbd5e1;
+}

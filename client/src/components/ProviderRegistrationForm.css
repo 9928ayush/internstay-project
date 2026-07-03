@@ -1,0 +1,145 @@
+/* Main wrapper to center on screen with subtle padding */
+/* index.css or global file */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.provider-form-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 80px 24px;
+  box-sizing: border-box;
+}
+
+.form-subtext {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #94a3b8;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: none; /* or 1400px if you want a limit */
+  padding: 40px 60px;
+  background-color: #1e293b;
+  border-radius: 10px;
+}
+
+
+/* Wider, card-style container */
+/* .form-container {
+  flex: 1;
+  max-width: 900px;
+  width: 100%;
+  background-color: #1e293b;
+  border-radius: 12px;
+  padding: 40px 50px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+} */
+
+
+/* Form Headings */
+.form-container h2 {
+  font-size: 2.2rem;
+  text-align: left;
+  color: #3b82f6;
+  margin-bottom: 10px;
+}
+
+.form-container p {
+  font-size: 1rem;
+  color: #cbd5e1;
+  margin-bottom: 30px;
+}
+
+/* Form Layout */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+}
+
+button[type="submit"] {
+  width: 100%;
+  margin-top: 30px;
+}
+
+/* Input Fields */
+label {
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.95rem;
+  color: #e2e8f0;
+}
+
+input,
+textarea,
+select {
+  margin-top: 6px;
+  padding: 14px 16px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #475569;
+  background-color: #334155;
+  color: white;
+  transition: border-color 0.2s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #6366f1;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.4);
+}
+
+/* Facilities checkbox grid */
+.facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: normal;
+  font-size: 0.95rem;
+  color: #f1f5f9;
+}
+
+/* Submit Button */
+button[type="submit"] {
+  padding: 14px;
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+  background-color: #4f46e5;
+}

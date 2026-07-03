@@ -1,0 +1,35 @@
+.dashboard-wrapper {
+  padding: 40px 20px;
+  background-color: #0f172a;
+  min-height: 100vh;
+  color: white;
+}
+
+.dashboard-wrapper h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #3b82f6;
+}
+
+.dashboard-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.property-card {
+  background-color: #1e293b;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.property-card:hover {
+  transform: translateY(-4px);
+}
+
+.property-card h3 {
+  color: #60a5fa;
+  margin-bottom: 10px;
+}

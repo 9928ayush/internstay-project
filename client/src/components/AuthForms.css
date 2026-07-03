@@ -1,0 +1,78 @@
+/* Centers the authentication card perfectly in the middle of the screen using Flexbox */
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  background-color: #0f172a; /* Dark slate background for modern UI */
+  min-height: 100vh; /* Ensures the wrapper takes up the full viewport height */
+}
+
+/* The main container for the login/register forms */
+.auth-card {
+  background-color: #1e293b;
+  padding: 40px 50px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 420px; /* Prevents the form from getting too wide on large screens */
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4); /* Adds depth to separate card from background */
+  color: white;
+}
+
+/* Form heading typography */
+.auth-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #3b82f6; /* Brand accent color */
+  text-align: center;
+}
+
+/* Stacks input fields vertically with consistent spacing */
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Normalizes the appearance of inputs and dropdowns */
+.auth-card input,
+.auth-card select {
+  padding: 12px 14px;
+  border-radius: 8px;
+  background-color: #334155;
+  color: white;
+  border: 1px solid #475569;
+  font-size: 1rem;
+}
+
+/* Accessibility and UX: Highlights the input when the user clicks or tabs into it */
+.auth-card input:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.4);
+}
+
+/* Primary action button styling */
+.auth-card button {
+  padding: 12px;
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Darkens the button slightly on hover for interactive feedback */
+.auth-card button:hover {
+  background-color: #4f46e5;
+}
+
+/* Visual divider (e.g., "OR" text between email login and Google login) */
+.auth-separator {
+  margin: 10px 0;
+  text-align: center;
+  color: #94a3b8;
+}

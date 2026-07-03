@@ -1,0 +1,19 @@
+.my-bookings-page {
+  padding: 30px;
+  background-color: #0f172a;
+  color: white;
+  min-height: 100vh;
+}
+
+.bookings-grid {
+  display: grid;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.booking-card {
+  background-color: #1e293b;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}

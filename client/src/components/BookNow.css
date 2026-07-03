@@ -1,0 +1,76 @@
+/* BookNow.css - InternStay */
+
+.booknow-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  background-color: #0f172a;
+  min-height: 100vh;
+  color: white;
+}
+
+.booknow-card {
+  background-color: #1e293b;
+  padding: 40px 50px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+}
+
+.booknow-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #3b82f6; /* Keep this blue or change to match new InternStay logo */
+  text-align: center;
+}
+
+.property-details {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  background-color: #334155;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.property-details p {
+  margin: 6px 0;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.booking-form input {
+  padding: 12px 14px;
+  border-radius: 8px;
+  background-color: #334155;
+  color: white;
+  border: 1px solid #475569;
+  font-size: 1rem;
+}
+
+.booking-form input:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.4);
+}
+
+.submit-booking {
+  padding: 12px;
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-booking:hover {
+  background-color: #4f46e5;
+}
