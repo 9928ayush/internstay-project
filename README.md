@@ -18,20 +18,3 @@ InternStay makes it easy for students to secure housing near tech parks and corp
 * **Frontend:** React
 * **Backend & Database:** Firebase (Cloud Firestore & Authentication)
 
-## ⚙️ Getting Started
-
-To run this project locally, simply clone the repository and start the development server.
-
-```bash
-# Clone the repository
-git clone [https://github.com/your-username/InternStay.git](https://github.com/your-username/InternStay.git)
-
-# Navigate into the directory
-cd InternStay
-
-# Install dependencies
-npm install
-
-# Start the application
-npm start
-```
